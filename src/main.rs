@@ -44,6 +44,6 @@ fn main() {
         Color { red: 0, green: 0, blue: 0 },
     ].iter() {
         // Hint : Fix the code so you can print it using {}
-        println!("{:?}", *color);
+        println!("red {}, green {}, blue {}", color.red,color.green,color.blue);
     }
 }
